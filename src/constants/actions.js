@@ -1,0 +1,6 @@
+const actions = {
+  FETCH_CAMPAIGNS: "FETCH_CAMPAIGNS",
+  FETCH_CAMPAIGNS_SUCCESSES: "FETCH_CAMPAIGNS_SUCCESSES",
+};
+
+export default actions;

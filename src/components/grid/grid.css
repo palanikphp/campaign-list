@@ -1,0 +1,34 @@
+.campaign-table {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.campaign-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.campaign-table th,
+.campaign-table td {
+    padding: 6px 8px;
+    text-align: left;
+    height: 20px;
+}
+
+.campaign-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.campaign-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.campaign-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.campaign-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
